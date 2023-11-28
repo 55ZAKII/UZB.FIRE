@@ -59,3 +59,39 @@
 
 //////////////////////////////////////////////////////////////
 
+// console.log(parseFloat(230.000));
+
+// console.log(parseInt('00402'));
+
+// console.log(parseInt('03.1400'));
+
+////////////////////////////////////////////////////////////
+
+// const testJackpot = (data) => data.every(element => element === data[0]);
+
+// console.log(testJackpot(["@", "@", "@", "@"]));
+// console.log(testJackpot(["abc", "abc", "abc", "abc"]));
+// console.log(testJackpot(["SS", "SS", "SS", "SS"]));
+// console.log(testJackpot(["&&&&", "&&&&", "&&&&", "&&&&"]));
+// console.log(testJackpot(["SS", "SS", "SS", "SS"]));
+
+///////////////////////////////////////////////////////
+
+// function reverseAndNot(i) {
+//     const reversed = parseInt(i.toString().split('').reverse().join(''));
+//     return Number(reversed + '' + i);
+//   }
+  
+//   console.log(reverseAndNot(222)); // Output: 321123
+//   console.log(reverseAndNot(152)); // Output: 251152
+//   console.log(reverseAndNot(123456789)); // Output: 987654321123456789
+
+////////////////////////////////////////////////////////////////////
+
+function insertWhitespace(str) {
+    return str.replace(/([a-z])([A-Z])/g, '$1 $2');
+  }
+
+  console.log(insertWhitespace('dkmdkmsMLKMLKML'));
+
+///////////////////////////////////////////////////////////////////////
