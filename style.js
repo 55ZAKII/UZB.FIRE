@@ -88,10 +88,34 @@
 
 ////////////////////////////////////////////////////////////////////
 
-function insertWhitespace(str) {
-    return str.replace(/([a-z])([A-Z])/g, '$1 $2');
-  }
+// function insertWhitespace(str) {
+//     return str.replace(/([a-z])([A-Z])/g, '$1 $2');
+//   }
 
-  console.log(insertWhitespace('dkmdkmsMLKMLKML'));
+//   console.log(insertWhitespace('SheWalksToTheBeach'));
 
 ///////////////////////////////////////////////////////////////////////
+
+// const meva = ['olma', 'nok', 'behi', 'banan']
+
+// const deleteFun = () =>{
+
+// }
+// deleteFun('olma')
+
+/////////////////////////////////////////////////////////////////
+
+// const name = '@dilbek Z@kirj@n@v';
+// const res = name.match(/[k]/g);
+// console.log(res);
+
+
+////////////////////////////////////////////////
+
+const search =['xasan', 'xusan', 'zubayir', 545454354,]
+
+const searchFun = () => {
+
+}
+
+searchFun()
